@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Achievements | Sanjay</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('achievementb.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      padding: 100px 5vw;
+    }
+
+    nav {
+      background-color: #111;
+      padding: 15px 0;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 999;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 16px;
+    }
+
+    nav a:hover {
+      color: #00ffcc;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .achievement {
+      background-color: #1a1a1a;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+    .achievement img {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      border-radius: 8px;
+      align-self: center;
+    }
+
+    .achievement h2 {
+      margin: 10px 0 5px;
+      font-size: 24px;
+      color: #00ffcc;
+    }
+
+    .achievement p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    @media (min-width: 768px) {
+      .achievement {
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .achievement img {
+        margin-right: 20px;
+      }
+
+      .achievement p {
+        flex: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="sanjay.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="achievements.html">Achievements</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <h1>My Achievements</h1>
+
+  <!-- 🏅 ACHIEVEMENT CARD 1 -->
+  <div class="achievement">
+    <img src="brandskulpt.jpg" alt="BrandSkulpt IIT Delhi">
+    <div>
+      <h2>BrandSkulpt Challenge @ IIT Delhi</h2>
+      <p>
+        Participated in the BrandSkulpt Challenge, a UI/UX design hackathon conducted as part of BECon'24 by IIT Delhi. The event focused on reimagining brand experiences and creating intuitive digital interfaces. Although we didn’t win a prize, it was an inspiring experience filled with creativity, learning, and collaboration with talented designers from across the country.
+      </p>
+    </div>
+  </div>
+
+  <!-- 🏅 ACHIEVEMENT CARD 2 -->
+  <div class="achievement">
+    <img src="Bot_Jungle.jpg" alt="Bot Jungle WINNER">
+    <div>
+      <h2>1st Prize - Bot Jungle 2024</h2>
+      <p>
+        We secured 1st place in a Robotics Workshop and Robo War competition conducted at the School of Engineering, CUSAT, organized by IEEE CUSAT SB. This event was a blend of hands-on learning and real-time robotic combat, which sharpened our technical skills and teamwork.
+      </p>
+    </div>
+  </div>
+
+  <!-- ➕ Copy & paste the .achievement div for more -->
+
+</body>
+</html>

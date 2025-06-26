@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Sanjay</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('projectb.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      padding: 100px 5vw;
+    }
+
+    nav {
+      background-color: #111;
+      padding: 15px 0;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 999;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 16px;
+    }
+
+    nav a:hover {
+      color: #00ffcc;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .project {
+      background-color: #1a1a1a;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+    .project img {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      border-radius: 8px;
+      align-self: center;
+    }
+
+    .project h2 {
+      margin: 10px 0 5px;
+      font-size: 24px;
+      color: #00ffcc;
+    }
+
+    .project p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    @media (min-width: 768px) {
+      .project {
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .project img {
+        margin-right: 20px;
+      }
+
+      .project p {
+        flex: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="sanjay.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="achievements.html">Achievements</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <h1>My Projects</h1>
+
+  <!-- 🔧 PROJECT CARD 1 -->
+  <div class="project">
+    <img src="project1.jpg" alt="Project 1 Image">
+    <div>
+      <h2>Hydroponics Automation System</h2>
+      <p>
+This project focuses on automating a soil-less farming system using hydroponics. It integrates sensors and microcontrollers to monitor and control key parameters like pH, temperature, humidity, water level, and nutrient supply. The system ensures optimal growth conditions for plants with minimal human intervention, promoting sustainable, space-efficient, and resource-saving agriculture — ideal for urban and indoor farming environments.
+      </p>
+    </div>
+  </div>
+
+  <!-- 🔧 PROJECT CARD 2 -->
+  <div class="project">
+    <img src="project2.jpg" alt="Project 2 Image">
+    <div>
+      <h2>5-DOF Gesture Controlled Robotic Arm</h2>
+      <p>
+This project features a 5-DOF robotic arm mounted on a mobile vehicle, designed to be controlled using a gesture-based glove. The glove is equipped with flex (bent) sensors and switches, which capture finger movements and user commands to control both the robotic arm and vehicle motion.
+It enables intuitive, wireless human-machine interaction and can be used in applications like remote handling, hazardous environment operations, or assistive robotics
+      </p>
+    </div>
+  </div>
+
+  <!-- ➕ Just copy and paste .project divs for more -->
+
+</body>
+</html>
