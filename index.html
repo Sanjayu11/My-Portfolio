@@ -1,10 +1,101 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My First Website</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sanjay | ECE Portfolio</title>
+  <style>
+    body {
+      margin: 10;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      text-align: left;
+    }
+
+    /* 🧭 NAVIGATION BAR */
+    nav {
+      background-color: #111;
+      padding: 15px 0;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 999;
+      text-align: center;
+    }
+    nav a {
+      display: inline-block;
+      color: #fff;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: 500;
+      font-size: 16px;
+    }
+    nav a:hover {
+      color: #00ffcc;
+    }
+
+    header {
+      padding: 150px 20px 100px; /* Top space increased to avoid overlap with nav */
+    }
+    h1 {
+      font-size: 48px;
+      margin-top: 0px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 22px;
+      font-weight: normal;
+      color: #ccc;
+    }
+    h3 {
+      font-size: 32px;
+      margin-bottom: 0px;
+    }
+    p {
+      max-width: 600px;
+      margin: 30px 10;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #1c1c1c;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    .btn:hover {
+      background-color: #333;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to My Website</h1>
-  <p>This is a simple website I created and published!</p>
+
+  <!-- 🌐 TOP NAVIGATION -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- 💡 MAIN CONTENT -->
+  <header id="home">
+    <h3>Hello</h3>
+    <h1>I'm Sanjay</h1>
+    <h2>ECE Engineer | Embedded Systems | IoT | Circuit Design Enthusiast</h2>
+    <p>
+      I'm currently pursuing my B.Tech in Electronics & Communication Engineering. Passionate about building real-world hardware solutions, exploring embedded systems, and designing efficient circuits.
+    </p>
+    <a class="btn" href="#projects">View Projects</a>
+  </header>
+
 </body>
 </html>
