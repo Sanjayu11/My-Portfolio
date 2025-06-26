@@ -6,7 +6,7 @@
   <title>Sanjay | ECE Portfolio</title>
   <style>
     body {
-      margin: 10;
+      margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background: url('background.jpg') no-repeat center center fixed;
       background-size: cover;
@@ -29,35 +29,37 @@
       display: inline-block;
       color: #fff;
       text-decoration: none;
-      margin: 0 20px;
+      margin: 10px 10px;
       font-weight: 500;
-      font-size: 16px;
+      font-size: 4vw;
+      
     }
     nav a:hover {
       color: #00ffcc;
     }
 
     header {
-      padding: 150px 20px 100px; /* Top space increased to avoid overlap with nav */
+      padding: 150px 5vw 100px; /* Top space increased to avoid overlap with nav */
     }
     h1 {
-      font-size: 48px;
+      font-size: 8vw;
       margin-top: 0px;
       margin-bottom: 10px;
     }
     h2 {
-      font-size: 22px;
+      font-size: 4.5vw;
       font-weight: normal;
       color: #ccc;
     }
     h3 {
-      font-size: 32px;
+      font-size: 6vw;
       margin-bottom: 0px;
     }
     p {
       max-width: 600px;
-      margin: 30px 10;
-      font-size: 18px;
+      margin: 30px 5vw;
+      text-align: left;
+      font-size: 4vw;
       line-height: 1.6;
     }
     .btn {
@@ -67,23 +69,35 @@
       color: white;
       text-decoration: none;
       border-radius: 6px;
+      font-size: 4vw; 
       font-weight: bold;
       transition: background-color 0.3s;
     }
     .btn:hover {
       background-color: #333;
     }
+    @media (min-width: 768px) {
+    h1 { font-size: 48px; }
+    h2 { font-size: 22px; }
+    h3 { font-size: 32px; }
+    p { font-size: 18px; margin: 30px 0vw; text-align: left; }
+    .btn { font-size: 16px; }
+    nav a {
+      font-size: 16px;
+      margin: 0 20px;}
+    }
+
   </style>
 </head>
 <body>
 
   <!-- 🌐 TOP NAVIGATION -->
   <nav>
-    <a href="#home">Home</a>
-    <a href="#projects">Projects</a>
-    <a href="#achievements">Achievements</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
+    <a href="sanjay.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="achievements.html">Achievements</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
   </nav>
 
   <!-- 💡 MAIN CONTENT -->
@@ -94,7 +108,7 @@
     <p>
       I'm currently pursuing my B.Tech in Electronics & Communication Engineering. Passionate about building real-world hardware solutions, exploring embedded systems, and designing efficient circuits.
     </p>
-    <a class="btn" href="#projects">View Projects</a>
+    <a class="btn" href="projects.html">View Projects</a>
   </header>
 
 </body>
